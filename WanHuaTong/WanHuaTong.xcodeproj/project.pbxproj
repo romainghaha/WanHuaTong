@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52D443C41FB887F000BD47E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443C31FB887F000BD47E6 /* AppDelegate.swift */; };
+		52D443CB1FB887F000BD47E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D443CA1FB887F000BD47E6 /* Assets.xcassets */; };
+		52D443CE1FB887F000BD47E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D443CC1FB887F000BD47E6 /* LaunchScreen.storyboard */; };
+		52D443ED1FB8936A00BD47E6 /* WHTTabBarMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443EC1FB8936A00BD47E6 /* WHTTabBarMC.swift */; };
+		52D443EF1FB893CE00BD47E6 /* WHTNavMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443EE1FB893CE00BD47E6 /* WHTNavMC.swift */; };
+		52D443F11FB893EF00BD47E6 /* WHTNewsMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443F01FB893EF00BD47E6 /* WHTNewsMainVC.swift */; };
+		52D443F31FB8940200BD47E6 /* WHTFoodMenuMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443F21FB8940200BD47E6 /* WHTFoodMenuMainVC.swift */; };
+		52D443F51FB8941600BD47E6 /* WHTMineMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443F41FB8941600BD47E6 /* WHTMineMainVC.swift */; };
+		52D443F71FB8942800BD47E6 /* WHTWeatherMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443F61FB8942800BD47E6 /* WHTWeatherMainVC.swift */; };
+		52D443FD1FB897F700BD47E6 /* WHTSearchMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D443FC1FB897F700BD47E6 /* WHTSearchMainVC.swift */; };
+		DBF2047C991FA8E9F4CDFF6C /* Pods_WanHuaTong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB428D57B4313C20296571CA /* Pods_WanHuaTong.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D7285C6DCB7980B7466BA71 /* Pods-WanHuaTong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanHuaTong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WanHuaTong/Pods-WanHuaTong.debug.xcconfig"; sourceTree = "<group>"; };
+		52D443C01FB887F000BD47E6 /* WanHuaTong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanHuaTong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D443C31FB887F000BD47E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52D443CA1FB887F000BD47E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52D443CD1FB887F000BD47E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52D443CF1FB887F000BD47E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D443EC1FB8936A00BD47E6 /* WHTTabBarMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTTabBarMC.swift; sourceTree = "<group>"; };
+		52D443EE1FB893CE00BD47E6 /* WHTNavMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTNavMC.swift; sourceTree = "<group>"; };
+		52D443F01FB893EF00BD47E6 /* WHTNewsMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTNewsMainVC.swift; sourceTree = "<group>"; };
+		52D443F21FB8940200BD47E6 /* WHTFoodMenuMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTFoodMenuMainVC.swift; sourceTree = "<group>"; };
+		52D443F41FB8941600BD47E6 /* WHTMineMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTMineMainVC.swift; sourceTree = "<group>"; };
+		52D443F61FB8942800BD47E6 /* WHTWeatherMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTWeatherMainVC.swift; sourceTree = "<group>"; };
+		52D443FC1FB897F700BD47E6 /* WHTSearchMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHTSearchMainVC.swift; sourceTree = "<group>"; };
+		A7839706A608682C34C9FE99 /* Pods-WanHuaTong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanHuaTong.release.xcconfig"; path = "Pods/Target Support Files/Pods-WanHuaTong/Pods-WanHuaTong.release.xcconfig"; sourceTree = "<group>"; };
+		AB428D57B4313C20296571CA /* Pods_WanHuaTong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanHuaTong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52D443BD1FB887F000BD47E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF2047C991FA8E9F4CDFF6C /* Pods_WanHuaTong.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52D443B71FB887F000BD47E6 = {
+			isa = PBXGroup;
+			children = (
+				52D443C21FB887F000BD47E6 /* WanHuaTong */,
+				52D443C11FB887F000BD47E6 /* Products */,
+				D998DBE623FF8125169FE063 /* Pods */,
+				DF3071E46E8E6C9040E9C9B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52D443C11FB887F000BD47E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52D443C01FB887F000BD47E6 /* WanHuaTong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52D443C21FB887F000BD47E6 /* WanHuaTong */ = {
+			isa = PBXGroup;
+			children = (
+				52D443D51FB8894700BD47E6 /* Classes */,
+				52D443C31FB887F000BD47E6 /* AppDelegate.swift */,
+				52D443CA1FB887F000BD47E6 /* Assets.xcassets */,
+				52D443CC1FB887F000BD47E6 /* LaunchScreen.storyboard */,
+				52D443CF1FB887F000BD47E6 /* Info.plist */,
+			);
+			path = WanHuaTong;
+			sourceTree = "<group>";
+		};
+		52D443D51FB8894700BD47E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F81FB897E900BD47E6 /* Search */,
+				52D443EB1FB88A0100BD47E6 /* Main */,
+				52D443E71FB8898C00BD47E6 /* News */,
+				52D443DA1FB8894700BD47E6 /* FoodMenu */,
+				52D443DE1FB8894700BD47E6 /* Mine */,
+				52D443E21FB8894700BD47E6 /* Tools */,
+				52D443E31FB8894700BD47E6 /* Weather */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		52D443DA1FB8894700BD47E6 /* FoodMenu */ = {
+			isa = PBXGroup;
+			children = (
+				52D443DB1FB8894700BD47E6 /* Controller */,
+				52D443DC1FB8894700BD47E6 /* Model */,
+				52D443DD1FB8894700BD47E6 /* View */,
+			);
+			path = FoodMenu;
+			sourceTree = "<group>";
+		};
+		52D443DB1FB8894700BD47E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F21FB8940200BD47E6 /* WHTFoodMenuMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D443DC1FB8894700BD47E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D443DD1FB8894700BD47E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D443DE1FB8894700BD47E6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				52D443DF1FB8894700BD47E6 /* Controller */,
+				52D443E01FB8894700BD47E6 /* Model */,
+				52D443E11FB8894700BD47E6 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		52D443DF1FB8894700BD47E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F41FB8941600BD47E6 /* WHTMineMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D443E01FB8894700BD47E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D443E11FB8894700BD47E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D443E21FB8894700BD47E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		52D443E31FB8894700BD47E6 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				52D443E41FB8894700BD47E6 /* Controller */,
+				52D443E51FB8894700BD47E6 /* Model */,
+				52D443E61FB8894700BD47E6 /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		52D443E41FB8894700BD47E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F61FB8942800BD47E6 /* WHTWeatherMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D443E51FB8894700BD47E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D443E61FB8894700BD47E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D443E71FB8898C00BD47E6 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				52D443E81FB8898C00BD47E6 /* Controller */,
+				52D443E91FB8898C00BD47E6 /* Model */,
+				52D443EA1FB8898C00BD47E6 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		52D443E81FB8898C00BD47E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F01FB893EF00BD47E6 /* WHTNewsMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D443E91FB8898C00BD47E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D443EA1FB8898C00BD47E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52D443EB1FB88A0100BD47E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				52D443EC1FB8936A00BD47E6 /* WHTTabBarMC.swift */,
+				52D443EE1FB893CE00BD47E6 /* WHTNavMC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		52D443F81FB897E900BD47E6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				52D443F91FB897E900BD47E6 /* Controller */,
+				52D443FA1FB897E900BD47E6 /* Model */,
+				52D443FB1FB897E900BD47E6 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		52D443F91FB897E900BD47E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52D443FC1FB897F700BD47E6 /* WHTSearchMainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52D443FA1FB897E900BD47E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52D443FB1FB897E900BD47E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D998DBE623FF8125169FE063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D7285C6DCB7980B7466BA71 /* Pods-WanHuaTong.debug.xcconfig */,
+				A7839706A608682C34C9FE99 /* Pods-WanHuaTong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF3071E46E8E6C9040E9C9B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB428D57B4313C20296571CA /* Pods_WanHuaTong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52D443BF1FB887F000BD47E6 /* WanHuaTong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D443D21FB887F000BD47E6 /* Build configuration list for PBXNativeTarget "WanHuaTong" */;
+			buildPhases = (
+				F0C8C54F30507B164DBA4548 /* [CP] Check Pods Manifest.lock */,
+				52D443BC1FB887F000BD47E6 /* Sources */,
+				52D443BD1FB887F000BD47E6 /* Frameworks */,
+				52D443BE1FB887F000BD47E6 /* Resources */,
+				1817B557D7C93734692ABF5D /* [CP] Embed Pods Frameworks */,
+				B6707E81FEECE39633F13DF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WanHuaTong;
+			productName = WanHuaTong;
+			productReference = 52D443C01FB887F000BD47E6 /* WanHuaTong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52D443B81FB887F000BD47E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WHT;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "苏强";
+				TargetAttributes = {
+					52D443BF1FB887F000BD47E6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52D443BB1FB887F000BD47E6 /* Build configuration list for PBXProject "WanHuaTong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52D443B71FB887F000BD47E6;
+			productRefGroup = 52D443C11FB887F000BD47E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52D443BF1FB887F000BD47E6 /* WanHuaTong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52D443BE1FB887F000BD47E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D443CE1FB887F000BD47E6 /* LaunchScreen.storyboard in Resources */,
+				52D443CB1FB887F000BD47E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1817B557D7C93734692ABF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WanHuaTong/Pods-WanHuaTong-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WanHuaTong/Pods-WanHuaTong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6707E81FEECE39633F13DF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WanHuaTong/Pods-WanHuaTong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C8C54F30507B164DBA4548 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WanHuaTong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52D443BC1FB887F000BD47E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D443F11FB893EF00BD47E6 /* WHTNewsMainVC.swift in Sources */,
+				52D443C41FB887F000BD47E6 /* AppDelegate.swift in Sources */,
+				52D443F71FB8942800BD47E6 /* WHTWeatherMainVC.swift in Sources */,
+				52D443F51FB8941600BD47E6 /* WHTMineMainVC.swift in Sources */,
+				52D443ED1FB8936A00BD47E6 /* WHTTabBarMC.swift in Sources */,
+				52D443EF1FB893CE00BD47E6 /* WHTNavMC.swift in Sources */,
+				52D443F31FB8940200BD47E6 /* WHTFoodMenuMainVC.swift in Sources */,
+				52D443FD1FB897F700BD47E6 /* WHTSearchMainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52D443CC1FB887F000BD47E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52D443CD1FB887F000BD47E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52D443D01FB887F000BD47E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52D443D11FB887F000BD47E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52D443D31FB887F000BD47E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7285C6DCB7980B7466BA71 /* Pods-WanHuaTong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32JYK7XX3V;
+				INFOPLIST_FILE = WanHuaTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = John.WanHuaTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52D443D41FB887F000BD47E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7839706A608682C34C9FE99 /* Pods-WanHuaTong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32JYK7XX3V;
+				INFOPLIST_FILE = WanHuaTong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = John.WanHuaTong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52D443BB1FB887F000BD47E6 /* Build configuration list for PBXProject "WanHuaTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D443D01FB887F000BD47E6 /* Debug */,
+				52D443D11FB887F000BD47E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D443D21FB887F000BD47E6 /* Build configuration list for PBXNativeTarget "WanHuaTong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52D443D31FB887F000BD47E6 /* Debug */,
+				52D443D41FB887F000BD47E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52D443B81FB887F000BD47E6 /* Project object */;
+}
